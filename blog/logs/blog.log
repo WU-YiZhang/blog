@@ -1,2 +1,47 @@
 INFO 2020-09-22 12:07:40,272 autoreload 597 Watching for file changes with StatReloader
 INFO 2020-09-22 12:07:51,774 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-22 12:15:28,786 autoreload 217 /Users/wudada/Desktop/blog/blog/blog/settings.py changed, reloading.
+INFO 2020-09-22 12:15:29,477 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-22 12:16:39,044 autoreload 217 /Users/wudada/Desktop/blog/blog/blog/settings.py changed, reloading.
+INFO 2020-09-22 12:16:39,552 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-22 12:18:50,659 autoreload 217 /Users/wudada/Desktop/blog/blog/blog/settings.py changed, reloading.
+INFO 2020-09-22 12:18:51,199 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-22 12:23:40,545 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-22 12:25:24,855 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-09-22 12:25:53,009 log 228 Not Found: /register/
+WARNING 2020-09-22 12:25:53,009 basehttp 154 "GET /register/ HTTP/1.1" 404 1964
+INFO 2020-09-22 12:26:29,896 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-22 12:27:28,159 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-22 12:29:57,988 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-22 12:30:18,913 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-22 12:32:23,076 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-22 12:33:51,493 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-22 12:35:29,672 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-22 12:38:00,476 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-22 12:38:30,087 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-09-22 12:38:39,889 log 228 Not Found: /
+WARNING 2020-09-22 12:38:39,889 basehttp 154 "GET / HTTP/1.1" 404 2075
+ERROR 2020-09-22 12:38:52,884 log 228 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/utils/deprecation.py", line 96, in __call__
+    response = self.process_response(request, response)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/middleware/clickjacking.py", line 26, in process_response
+    if response.get('X-Frame-Options') is not None:
+AttributeError: 'str' object has no attribute 'get'
+ERROR 2020-09-22 12:38:52,885 basehttp 154 "GET /register/ HTTP/1.1" 500 58857
+INFO 2020-09-22 12:39:40,376 autoreload 597 Watching for file changes with StatReloader
+ERROR 2020-09-22 12:40:35,845 log 228 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/utils/deprecation.py", line 96, in __call__
+    response = self.process_response(request, response)
+  File "/Users/wudada/.virtualenvs/meiduo_mall/lib/python3.6/site-packages/django/middleware/clickjacking.py", line 26, in process_response
+    if response.get('X-Frame-Options') is not None:
+AttributeError: 'str' object has no attribute 'get'
+ERROR 2020-09-22 12:40:35,879 basehttp 154 "GET /register/ HTTP/1.1" 500 58389
+INFO 2020-09-22 12:42:31,130 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-22 12:42:46,347 basehttp 154 "GET /register/ HTTP/1.1" 200 6
+INFO 2020-09-22 13:50:37,710 basehttp 154 "GET /register/ HTTP/1.1" 200 6
