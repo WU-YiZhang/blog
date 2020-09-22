@@ -25,7 +25,10 @@ SECRET_KEY = 'a_r9g1!1xekvgi*^y_3t_mnnsld@egp#g9(m_=+x#_qwb0!b@k'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['api.bolg.site',
+                 '127.0.0.1',
+                 'localhost',
+                 'www.blog.site']
 
 
 # Application definition
@@ -37,20 +40,32 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'users'
+    'corsheaders',
+    'users',
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
+    # 'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
 ROOT_URLCONF = 'blog.urls'
+
+# CORS跨域请求白名单设置
+CORS_ORIGIN_WHITELIST = (
+    'http://127.0.0.1:8080',
+    'http://localhost:8080',
+    'http://www.bolg.site:8080',
+)
+CORS_ALLOW_CREDENTIALS = True  # 允许携带cookie
+
+
 
 TEMPLATES = [
     {
@@ -185,3 +200,7 @@ LOGGING = {
         },
     }
 }
+
+
+# 指定本项目使用自定义的模型类:
+AUTH_USER_MODEL = 'users.User'

@@ -6,9 +6,13 @@ from django.views import View
 
 
 class RegisterView(View):
+    def get(self, request):
 
-     def get(self, request):
+        return HttpResponse("注册")
 
-         return HttpResponse(
-             "注册"
-         )
+
+class LogInView(View):
+
+    def post(self, request):
+
+        return HttpResponse("登录")

@@ -9,9 +9,10 @@
 '''
 from django.conf.urls import url
 # from django.urls import path
-from users.views import RegisterView
+from users.views import RegisterView,LogInView
 
 urlpatterns = [
 
-    url(r"register/", RegisterView.as_view())
+    url(r"register/", RegisterView.as_view()),
+    url(r"Login/", LogInView.as_view())
 ]

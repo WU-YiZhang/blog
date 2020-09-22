@@ -45,3 +45,58 @@ ERROR 2020-09-22 12:40:35,879 basehttp 154 "GET /register/ HTTP/1.1" 500 58389
 INFO 2020-09-22 12:42:31,130 autoreload 597 Watching for file changes with StatReloader
 INFO 2020-09-22 12:42:46,347 basehttp 154 "GET /register/ HTTP/1.1" 200 6
 INFO 2020-09-22 13:50:37,710 basehttp 154 "GET /register/ HTTP/1.1" 200 6
+INFO 2020-09-22 13:55:22,498 autoreload 217 /Users/wudada/Desktop/blog/blog/users/views.py changed, reloading.
+INFO 2020-09-22 13:55:24,931 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-22 15:10:09,157 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-22 15:26:40,211 autoreload 217 /Users/wudada/Desktop/blog/blog/users/views.py changed, reloading.
+INFO 2020-09-22 15:26:40,633 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-22 15:30:29,295 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-09-22 15:30:46,570 log 228 Not Found: /LogIn/
+WARNING 2020-09-22 15:30:46,571 basehttp 154 "GET /LogIn/ HTTP/1.1" 404 2264
+WARNING 2020-09-22 15:31:02,480 base 102 Method Not Allowed (GET): /Login/
+WARNING 2020-09-22 15:31:02,482 log 228 Method Not Allowed: /Login/
+WARNING 2020-09-22 15:31:02,483 basehttp 154 "GET /Login/ HTTP/1.1" 405 0
+WARNING 2020-09-22 15:31:18,042 log 228 Forbidden (CSRF cookie not set.): /Login/
+WARNING 2020-09-22 15:31:18,042 basehttp 154 "POST /Login/ HTTP/1.1" 403 2868
+INFO 2020-09-22 15:31:58,245 autoreload 217 /Users/wudada/Desktop/blog/blog/users/views.py changed, reloading.
+INFO 2020-09-22 15:31:58,730 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-22 15:32:37,530 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-09-22 15:33:04,585 log 228 Forbidden (CSRF cookie not set.): /Login/
+WARNING 2020-09-22 15:33:04,586 basehttp 154 "POST /Login/ HTTP/1.1" 403 2868
+INFO 2020-09-22 15:34:07,532 autoreload 217 /Users/wudada/Desktop/blog/blog/users/views.py changed, reloading.
+INFO 2020-09-22 15:34:08,023 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-09-22 15:34:30,072 log 228 Forbidden (CSRF cookie not set.): /Login/
+WARNING 2020-09-22 15:34:30,074 basehttp 154 "POST /Login/ HTTP/1.1" 403 2868
+INFO 2020-09-22 15:35:02,992 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-09-22 15:35:08,699 log 228 Forbidden (CSRF cookie not set.): /Login/
+WARNING 2020-09-22 15:35:08,702 basehttp 154 "POST /Login/ HTTP/1.1" 403 2868
+INFO 2020-09-22 15:39:03,837 autoreload 217 /Users/wudada/Desktop/blog/blog/blog/settings.py changed, reloading.
+INFO 2020-09-22 15:39:04,840 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-22 15:39:16,295 autoreload 217 /Users/wudada/Desktop/blog/blog/blog/settings.py changed, reloading.
+INFO 2020-09-22 15:39:17,211 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-22 15:39:28,644 autoreload 217 /Users/wudada/Desktop/blog/blog/blog/settings.py changed, reloading.
+INFO 2020-09-22 15:39:29,595 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-22 15:39:37,192 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-22 15:40:58,580 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-22 15:42:20,541 autoreload 217 /Users/wudada/Desktop/blog/blog/blog/settings.py changed, reloading.
+INFO 2020-09-22 15:42:20,964 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-22 15:42:53,421 autoreload 217 /Users/wudada/Desktop/blog/blog/blog/settings.py changed, reloading.
+INFO 2020-09-22 15:42:53,823 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-22 15:43:42,404 autoreload 217 /Users/wudada/Desktop/blog/blog/blog/settings.py changed, reloading.
+INFO 2020-09-22 15:43:42,851 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-22 15:49:36,858 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-22 15:51:48,248 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-22 15:51:59,796 basehttp 154 "POST /Login/ HTTP/1.1" 200 6
+INFO 2020-09-22 16:05:51,359 autoreload 217 /Users/wudada/Desktop/blog/blog/users/models.py changed, reloading.
+INFO 2020-09-22 16:05:52,031 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-22 16:06:08,376 autoreload 217 /Users/wudada/Desktop/blog/blog/users/models.py changed, reloading.
+INFO 2020-09-22 16:06:09,091 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-22 16:13:10,982 autoreload 217 /Users/wudada/Desktop/blog/blog/users/models.py changed, reloading.
+INFO 2020-09-22 16:13:11,665 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-22 16:15:48,008 autoreload 217 /Users/wudada/Desktop/blog/blog/users/models.py changed, reloading.
+INFO 2020-09-22 16:15:48,692 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-22 16:16:51,701 autoreload 217 /Users/wudada/Desktop/blog/blog/users/models.py changed, reloading.
+INFO 2020-09-22 16:16:52,268 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-22 16:18:50,701 autoreload 217 /Users/wudada/Desktop/blog/blog/users/models.py changed, reloading.
+INFO 2020-09-22 16:18:51,333 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-09-22 16:25:22,381 autoreload 597 Watching for file changes with StatReloader
